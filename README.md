@@ -8,46 +8,42 @@
 
 >The projects in this repository are unrelated projects that use Natural Language Processing (NLP) to gather insight. The purpose of these projects was purely academic to explore tools to scrape data from websites and apply NLP analysis.
 
-[Part 1 - EDA Report](../main/1_EDA/EDA_Final.ipynb)
+[Project 1](../main/Project%201/Project_1.ipynb)
 
-[Part 2 - SVM and LR Modeling Report](../main/2_SVM_LR_Modeling/SVM_LR_Modeling_Final.ipynb)
+[Project 2](../main/Project%202/Project_2.ipynb)
 
-[Part 3 - KNN, NB, and RF Modeling Report](../main/3_KNN_NB_RF_Modeling/KNN_NB_RF_Modeling_Final.ipynb)
+[Project 3](../main/Project%203/Project_3.ipynb)
 
-[Part 4 - Clustering Report](../main/4_Clustering/Clustering_Final.ipynb)
+[Project 4](../main/Project%204/Project_4.ipynb)
+
+[Project 5](../main/Project%205/Project_5.ipynb)
+
+[Project 6](../main/Project%206/Project_6.ipynb)
 
 ---
 
 ## Table of Contents
-- [Part 1 - EDA](#P1)
-- [Part 2 - SVM and LR Modeling](#P2)
-- [Part 3 - KNN, NB, and RF Modeling](#P3)
-- [Part 4 - Clustering](#P4)
+- [Project 1 - Analyze Books by Reading Level](#P1)
+- [Project 2 - SVM and LR Modeling](#P2)
+- [Project 3 - KNN, NB, and RF Modeling](#P3)
+- [Project 4 - Clustering](#P4)
+- [Project 5 - EDA](#P5)
+- [Project 6 - SVM and LR Modeling](#P6)
 - [References](#References)
 
 ---
 
 <a name="P1"></a>
 
-## Part 1 - EDA
+## Project 1 - Analyze Books by Reading Level
 
-[Part 1 - EDA Report](../main/1_EDA/EDA_Final.ipynb)
+[Project 1](../main/Project%201/Project_1.ipynb)
 
-All feature and response descriptions are discussed in detail inside the report. Every observation is the result of a single horse in a race. First, the team looked at missing values in the dataset. Any yellow horizontal bar represents an observation missing from that variable. The team recognized the position_sec, behind_sec, and time 4-6 were heavily missing. This is because of the non-standard sectioning of the races at different tracks. For this reason, the team dropped these features from consideration. Place odds is the only other feature with missing data with 4.7% missing. The team decided to impute the missing place_odds values with the mean. The total observations to 79,445.
-
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/37990637/158272715-96d4496d-3eee-4303-8409-6be82e9fce5d.png">
-
-Next, the team reviewed correlations between the variables which allow you to see where there are significant positive or negative relationships.
-
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/37990637/158272622-64bfc1d7-84e8-41df-9749-9e758ab2665c.png">
-
-Using the correlation between variables, the team could dive deeper to visualize the relationships between variables. For, example the relationship between the horse's age and place odds can be seen below:
-
-<img width="502" alt="image" src="https://user-images.githubusercontent.com/37990637/158274095-22a7ae46-821f-4939-bbb8-4d85ba9edf47.png">
-
-Using the relationship insights from this EDA, the team was able to effectively create classification models using relevant features such as: Draw, Win_Odds, Place_Odds, Horse_Age, etc.
+description of project
 
 [Back to Top](#BackToTop)
+
+---
 
 <a name="P2"></a>
 
