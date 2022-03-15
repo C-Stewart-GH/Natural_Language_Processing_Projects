@@ -6,7 +6,7 @@
 
 **Contributors: Cameron Stewart**
 
->The projects in this repository are unrelated projects that use Natural Language Processing (NLP) to gather insight. The purpose of these projects was purely academic to explore tools to scrape data from websites and apply NLP analysis.
+>The projects in this repository are not related but increasingly dive deeper into Natural Language Processing (NLP) concepts to gather insight. The purpose of these projects was purely academic to explore tools to scrape data from websites and apply NLP analysis.
 
 ---
 
@@ -27,7 +27,7 @@
 
 [Project 1](../main/Project%201/Project_1.ipynb)
 
-description of project
+This project looks at the interaction between lexical diversity and vocabulary size at multiple reading levels. The text was tokenized using Python's NLTK package. Books analyzed were found at: [Project Gutenberg](http://www.gutenberg.org/ebooks/bookshelf/215).
 
 [Back to Top](#BackToTop)
 
