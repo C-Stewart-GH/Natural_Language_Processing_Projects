@@ -39,7 +39,7 @@ This project looks at the interaction between lexical diversity and vocabulary s
 
 [Project 2](../main/Project%202/Project_2.ipynb)
 
-This project develops a normalized score for both the vocabulary size of text and the long word vocabulary size of text. Using the mean of these normalized scores, I developed a text difficulty score that was tested across multiple reading levels. The project showed the created text difficulty score increased with the reading level. The text was tokenized using Python's NLTK package. Books analyzed were found at: [Project Gutenberg](http://www.gutenberg.org/ebooks/bookshelf/215).
+This project develops a normalized score for both the vocabulary size of text and the long word vocabulary size of text. Using the mean of these normalized scores, I developed a text difficulty score that was tested across multiple reading levels. The project showed the created text difficulty score increased with the reading level. The text was tokenized using Python's NLTK package. Books analyzed were found at [Project Gutenberg](http://www.gutenberg.org/ebooks/bookshelf/215).
 
 [Back to Top](#BackToTop)
 
