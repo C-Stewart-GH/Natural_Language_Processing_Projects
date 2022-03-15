@@ -15,8 +15,8 @@
 - [Project 2 - Create Text Difficulty Score](#P2)
 - [Project 3 - Comparing sentence outputs of Stemming and Lemmatizing](#P3)
 - [Project 4 - Compare Part of Speech Taggers on Complex Sentences](#P4)
-- [Project 5 - EDA](#P5)
-- [Project 6 - SVM and LR Modeling](#P6)
+- [Project 5 - Scrape IMDB Movie Reviews and Extract Noun Phrases](#P5)
+- [Project 6 - Comparing Text Similarity of Book Titles](#P6)
 - [References](#References)
 
 ---
