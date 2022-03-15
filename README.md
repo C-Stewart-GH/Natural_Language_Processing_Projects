@@ -129,7 +129,8 @@ In additioon, I queried one Book Title in a Google Search and extracted the text
 
 ##### Technologies
 
-Jupyter Notebook 
+Jupyter Notebook
+
 Python 3.7.7
 
 [Back to Top](#BackToTop)
