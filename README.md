@@ -127,7 +127,7 @@ In additioon, I queried one Book Title in a Google Search and extracted the text
 [Project 6](../main/Project%206/Project_6.ipynb)
 
 
-##### Technologies
+##### Technologies:
 
 Jupyter Notebook
 
