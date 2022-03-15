@@ -6,7 +6,7 @@
 
 **Contributors: Cameron Stewart**
 
->The projects in this repository increasingly dive deeper into Natural Language Processing (NLP) concepts to gather insight. The purpose of these projects was purely academic to explore tools to scrape data from websites and apply NLP analysis.
+>The projects in this repository increasingly dive deeper into Natural Language Processing (NLP) concepts to gather insight. The purpose of these projects was purely academic to explore tools used to scrape data from websites and apply NLP analysis with the latest tools.
 
 ---
 
@@ -63,7 +63,7 @@ This is a simple project with two parts. Part 1 - Stemmed Book Titles were teste
 
 [Project 4](../main/Project%204/Project_4.ipynb)
 
-
+Using Python's NLTK and Flair packages, I compared the accuracy of Part of Speech taggers for each tool on complex sentences. The Flair package proved to be the more accurate tagger in this project.
 
 [Back to Top](#BackToTop)
 
@@ -98,11 +98,13 @@ For next steps, this project could be utilized to generate Word Clouds from the 
 
 <a name="P6"></a>
 
-## Project 6 - Analyze Books by Reading Level
+## Project 6 - Comparing Text Similarity of Book Titles
 
 [Project 6](../main/Project%206/Project_6.ipynb)
 
-description of project
+Using Python's BeautifulSoup package, I scraped the top 24 book titles displayed. Utilizing Python's Spacy package, I evaluated a pairwise cosine similarity score for every set of Book Titles. For organization, I stored these scores in a square NumPy array where the Book Titles were in the same order for both the rows and columns. I then used SciPy's RankData function to order all the comparisons from most similar to least similar.
+
+In additioon, I queried one Book Title in a Google Search and extracted the text in the 1st and 20th capsule. Using cosine similarity, I showed the higher result had a higher similarity with the queried text. It is worth noting Google uses many factors with ranking search results beyond similarity.
 
 [Back to Top](#BackToTop)
 
