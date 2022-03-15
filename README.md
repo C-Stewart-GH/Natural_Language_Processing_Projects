@@ -14,7 +14,7 @@
 - [Project 1 - Analyze Books by Reading Level](#P1)
 - [Project 2 - Create Text Difficulty Score](#P2)
 - [Project 3 - Comparing sentence outputs of Stemming and Lemmatizing](#P3)
-- [Project 4 - Clustering](#P4)
+- [Project 4 - Compare Part of Speech Taggers on Complex Sentences](#P4)
 - [Project 5 - EDA](#P5)
 - [Project 6 - SVM and LR Modeling](#P6)
 - [References](#References)
@@ -51,7 +51,7 @@ This project develops a normalized score for both the vocabulary size of text an
 
 [Project 3](../main/Project%203/Project_3.ipynb)
 
-This is a simple project with two parts. Part 1 - Stemmed Book Titles were tested for interpretability with another user. Part 2 - Compare in terms of % difference in examples when you stem vs. lemmatize text.
+This is a simple project with two parts. Part 1 - Stemmed Book Titles were tested for interpretability with another user. Part 2 - Compare examples in terms of % difference when you stem vs. lemmatize text. The text was tokenized, stemmed, and lemmatized using Python's NLTK package.
 
 [Back to Top](#BackToTop)
 
@@ -59,11 +59,26 @@ This is a simple project with two parts. Part 1 - Stemmed Book Titles were teste
 
 <a name="P4"></a>
 
-## Project 4 - Analyze Books by Reading Level
+## Project 4 - Scrape IMDB Movie Reviews and Extract Noun Phrases
 
 [Project 4](../main/Project%204/Project_4.ipynb)
 
-description of project
+Using Python's BeautifulSoup package, I scraped 894 links to individual reviews describing 18 movies. Using an advanced search and conditional statements, I ensured each movie met the following criteria:
+
+- Feature Film
+- Related to Marvel Comics
+- Superhero Movie
+- At least 7.0 IMDb user rating (average)
+- 2015-2021 Release year or range
+- Movie had at least 3000 rating votes to ensure the film was relevant and had sufficient reviews
+
+Next, I pulled the highest and lowest 25 reviews (50 total) for each movie to ensure there was a mix of sentiment. Any review that did not have at least 10 characters was removed for lack of content.
+
+With all the reviews gathered, I then scraped 475 of the top actor and character names of the 18 movies being analyzed to identify Proper Nouns that may not be in my lexicon.
+
+Finally, I used Python's Spacy package and the list of top actor and character names to extract the Noun Phrases from each movie review.
+
+For next steps, this project could be utilized to generate Word Clouds from the reviews for each movie. Another potential project would be to attempt to sort the reviews for each movie with sentiment analysis.
 
 [Back to Top](#BackToTop)
 
